@@ -1,0 +1,14 @@
+spring:
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+  datasource:
+    username: ${POSTGRES_USERNAME}
+    password: ${POSTGRES_PASSWORD}
+    url: ${POSTGRES_URL}
+    driver-class-name: org.postgresql.Driver
+  application:
+    name: Desafio-Backend-Controle-de-Estoque-de-Relogios
+
+
